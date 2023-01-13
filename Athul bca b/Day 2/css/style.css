@@ -1,0 +1,49 @@
+*{margin: 0;
+  padding: 0;
+}
+body{
+    background-size: cover;
+}
+
+header{
+    background-color: white;
+}
+.head-tag{
+  float: right;
+  margin-top: 35px;
+  margin-right: 35px;
+}
+.head-tag a{
+  color: black;
+  text-decoration: none;
+  border: 2px solid black;
+  font-family: 'Lucida Sans';
+  padding: 8px;
+  margin-right: 2px;
+}
+.head-tag a:hover{
+  background-color: black;
+  color: aliceblue;
+  transition: .5s ease-in-out;
+}
+.Login{
+  border: 2px solid red;
+  padding: 30px;
+  float: right;
+  background-color: beige;
+}
+#login-button{
+width: 100%;
+background-color:dodgerblue;
+
+}
+.side-bar{
+  color: aliceblue;
+  padding: 100px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.side-bar li{
+  list-style-type: square;
+  margin-bottom: 5px;
+}
